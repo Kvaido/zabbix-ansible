@@ -13,6 +13,10 @@ For local development environment:
 * Vagrant 1.5+
 
 ## Usage
+### install requirements
+```
+ansible-galaxy install -r requirements.yml
+```
 
 ### production
 
@@ -41,4 +45,4 @@ Run ansible playbook.
 
 Login.
 
-* [http://10.200.19.33/](http://10.200.19.33/)<br>(Admin / zabbix)
+* [http://192.168.12.51/](http://192.168.12.51/)<br>(Admin / zabbix)
